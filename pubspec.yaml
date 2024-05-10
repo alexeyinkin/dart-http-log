@@ -1,0 +1,10 @@
+name: http_log
+description: A logger for HTTP requests, stores the last request, can pretty-print it in cURL or raw
+repository: https://github.com/alexeyinkin/dart-http-log
+version: 0.1.0
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  http: ^1.0.0

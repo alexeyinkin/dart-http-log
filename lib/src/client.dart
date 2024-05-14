@@ -1,7 +1,8 @@
 import 'package:http/http.dart';
 
 class LoggingClient extends BaseClient {
-  LoggingClient(this._inner, {
+  LoggingClient(
+    this._inner, {
     this.storeLastRequest = false,
   });
 
